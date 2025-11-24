@@ -1,0 +1,136 @@
+.containerPrices{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box-prices {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 450px;
+  border-radius: 30px 30px 0px 0px;
+  padding-bottom: 10px;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #2a2a2a;
+}
+
+.card {
+  padding: 5px;
+  width: 240px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 12px 0px rgb(14, 13, 13);
+  background-color: #2a2a2a;
+}
+
+
+.card > .titles-card > .titles {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 0px 20px;
+  margin-top: 10px;
+
+  h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgb(184, 183, 182);
+  }
+
+  h1 {
+    font-size: 35px;
+    small {
+      color: gray;
+      font-size: 13px;
+      font-weight: lighter;
+    }
+    color: rgb(255, 255, 255);
+  }
+
+  h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgb(184, 183, 182);
+  }
+}
+
+.buttonPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  margin: 12px 0px 10px 20px;
+  height: 44px;
+  background-color: #51d15bff;
+  border-radius: 10px;
+  transition: linear all 0.1s;
+  &:hover{
+    background-color: rgb(60, 156, 68);
+    a{
+      color: white;
+    }
+  }
+  &:active{
+    scale: 0.9;
+  }
+  a{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    height: 40px;
+  }
+}
+
+.Advantage {
+  margin: 0px 10px 0px 20px;
+  ul {
+    list-style: none;
+
+    li {
+
+
+      color: rgb(177, 177, 177);
+      font-size: 13px;
+      padding: 4px 0px 4px 0px;
+
+      
+      .iconCheck {
+        display: flex;
+        img {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}
+
+.box-cardBasic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px){
+  .box-prices{
+    background-color: #121615;
+    padding: 10px;
+    min-width: 800px;
+    border-radius: 10px;
+  }
+  .box-cardBasic{
+    margin: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
