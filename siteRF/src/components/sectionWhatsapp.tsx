@@ -43,7 +43,7 @@ export function SectionWhatsapp() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <a href="https://wa.me/5521994563568?text=%22Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20aulas.%20Tenho%20interesse%20em%20entender%20as%20op%C3%A7%C3%B5es%2C%20valores%20e%20o%20que%20est%C3%A1%20inclu%C3%ADdo.%20Pode%20me%20ajudar%3F%22">
+              <a href="https://wa.me/5521994563568?text=%22Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20aulas.%20Tenho%20interesse%20em%20entender%20as%20op%C3%A7%C3%B5es%2C%20valores%20e%20o%20que%20est%C3%A1%20inclu%C3%ADdo.%20Pode%20me%20ajudar%3F%22" target="_blank">
                 <img src={iconWhatsapp} width={20} alt="" />
                 Falar com um professor
               </a>
