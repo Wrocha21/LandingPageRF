@@ -34,7 +34,7 @@ export function SectionImages() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              Aula de piano
+              Aula de Teclado
             </motion.p>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}
@@ -72,7 +72,7 @@ export function SectionImages() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              Aula Prática de piano
+              Aula Prática de Teclado
             </motion.p>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}

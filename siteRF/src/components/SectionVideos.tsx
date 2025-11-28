@@ -22,7 +22,7 @@ export function SectionVideos() {
           <div className="video-box">
             <div className="title-video">
               <span>
-                {videoId === 1 ? "Alunos da Igreja de São Gonçãlo" : ""}
+                {videoId === 1 ? "Alunos da Igreja de São Gonçalo" : ""}
               </span>
               <span>{videoId === 0 ? "Alunos da Igreja Ferma" : ""}</span>
               <p
