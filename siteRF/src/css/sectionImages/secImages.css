@@ -5,13 +5,13 @@
   padding: 10px;
 }
 
-.images1{
+.images1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.images2{
+.images2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -192,6 +192,7 @@
     img {
       width: 180px;
       height: 135px;
+      object-fit: cover;
     }
     .titleExp1 {
       text-align: center;
@@ -274,6 +275,7 @@
       width: 180px;
       height: 135px;
       margin: 0px;
+      object-fit: cover;
     }
     .titleExp4 {
       text-align: center;
@@ -304,6 +306,7 @@
     img {
       margin: 0;
       width: 190px;
+      object-fit: cover;
       height: 190px;
     }
     .titleExp5 {
@@ -333,6 +336,7 @@
     transition: all linear 0.2s;
 
     img {
+      object-fit: cover;
       width: 180px;
       height: 135px;
       margin: 0px;
