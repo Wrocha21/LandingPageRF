@@ -1,7 +1,7 @@
 .box-images {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 25px;
   padding: 10px;
 }
 
@@ -46,6 +46,9 @@
   margin-left: 20px;
   img {
     border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border: 1px solid rgb(25, 160, 25);
   }
   .titleExp2 {
@@ -71,6 +74,9 @@
   img {
     margin-left: 20px;
     border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border: 1px solid rgb(25, 160, 25);
   }
   .titleExp3 {
@@ -94,6 +100,9 @@
   display: flex;
   img {
     margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     height: 150px;
     border-radius: 8px;
     border: 1px solid rgb(25, 160, 25);
@@ -119,6 +128,9 @@
   img {
     margin-left: 20px;
     border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border: 1px solid rgb(25, 160, 25);
   }
   .titleExp5 {
@@ -142,6 +154,9 @@
   img {
     margin-left: 20px;
     border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border: 1px solid rgb(25, 160, 25);
   }
   .titleExp6 {
