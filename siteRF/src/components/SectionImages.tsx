@@ -162,7 +162,7 @@ export function SectionImages() {
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >
-                Professor Rodrigo
+                Professor Felipe
               </motion.span>
             </div>
           </div>
